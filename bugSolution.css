@@ -1,0 +1,9 @@
+The following CSS rule fixes the issue by correctly specifying the attribute and value in the selector:
+
+```css
+data-my-attr="value"] {
+  /* styles here */
+}
+```
+
+Ensure the attribute `data-my-attr` exists on the target element and has the value "value" to see the styles applied.  Always double-check attributes and values for typos and correctness when using attribute selectors in CSS.
