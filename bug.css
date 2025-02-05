@@ -1,0 +1,9 @@
+The following CSS rule attempts to style an element with an invalid selector:
+
+```css
+.my-class[attr="value"] {
+  /* styles here */
+}
+```
+
+If the `attr` attribute is not a valid attribute of the element, or if the element does not contain the specified value for the attribute, the styles within the rule will not be applied. This could be caused by a typo or an assumption about the element's structure that is incorrect.
